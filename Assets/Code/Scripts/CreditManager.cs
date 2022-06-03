@@ -27,6 +27,9 @@ public class CreditManager : MonoBehaviour {
         StartCoroutine(DelayedBegin()); // start the coroutine that will start the credits after a delay
     }
 
+    // Next two functions applied from Tutorial
+    // https://www.youtube.com/watch?v=FgWVW2PL1bQ&list=PLF3xhACXvo9NIXQZZFyQIAyIe9qZImK74&index=2
+
     // Update is called once per frame
     void Update() {
         textMesh.ForceMeshUpdate(); // update text mesh
@@ -52,7 +55,7 @@ public class CreditManager : MonoBehaviour {
     }
 
     IEnumerator DelayedBegin() {
-        yield return new WaitForSeconds(0.5f); // wait for a couple seconds
+        yield return new WaitForSeconds(1f); // wait for a couple seconds
         Begin(dialogue); // begin the credits
     }
 
@@ -87,6 +90,7 @@ public class CreditManager : MonoBehaviour {
 
     private void End() {
         textMesh.SetText(""); // ensures there is no residual text
-        SceneManager.LoadScene("Menu"); // exit to main menu
+        textMesh.ForceMeshUpdate(); // update text mesh
+        GetComponent<SceneLoader>().Load(); // exit to main menu
     }
 }

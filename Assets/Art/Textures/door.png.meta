@@ -130,12 +130,12 @@ TextureImporter:
       name: door_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 178
+        width: 180
         height: 340
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: door_1
       rect:
         serializedVersion: 2
-        x: 161
+        x: 180
         y: 0
-        width: 178
+        width: 180
         height: 340
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: door_2
       rect:
         serializedVersion: 2
-        x: 321
+        x: 360
         y: 0
-        width: 158
+        width: 180
         height: 340
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: door_3
       rect:
         serializedVersion: 2
-        x: 481
+        x: 540
         y: 0
-        width: 138
+        width: 180
         height: 340
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
