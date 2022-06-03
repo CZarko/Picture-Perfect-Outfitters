@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <canvas id="unity-canvas" width=960 height=540></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Sample.loader.js";
+      var loaderUrl = buildUrl + "/sampler.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Sample.data.unityweb",
-        frameworkUrl: buildUrl + "/Sample.framework.js.unityweb",
-        codeUrl: buildUrl + "/Sample.wasm.unityweb",
+        dataUrl: buildUrl + "/sampler.data.unityweb",
+        frameworkUrl: buildUrl + "/sampler.framework.js.unityweb",
+        codeUrl: buildUrl + "/sampler.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Orcaration LLC",
         productName: "Picture-Perfect-Outfitters",
-        productVersion: "1.0",
+        productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
 
@@ -82,8 +82,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "540px";
       }
       loadingBar.style.display = "block";
 
