@@ -5,12 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour {
 
-    //Scene scene = SceneManager.GetActiveScene();
-
-    //void Awake() {
-        //DontDestroyOnLoad(this.gameObject);
-    //}
-
     // function to load proper scene using scenename, implemented to reduce amount of typing for public click functions
     void LoadScene(string sceneName) { SceneManager.LoadScene(sceneName); }
 
