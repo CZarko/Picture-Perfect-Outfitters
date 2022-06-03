@@ -103,12 +103,12 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -130,10 +130,10 @@ TextureImporter:
       name: door_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 1
         y: 0
-        width: 587
-        height: 1250
+        width: 178
+        height: 340
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: door_1
       rect:
         serializedVersion: 2
-        x: 592
+        x: 161
         y: 0
-        width: 495
-        height: 1250
+        width: 178
+        height: 340
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: door_2
       rect:
         serializedVersion: 2
-        x: 1162
+        x: 321
         y: 0
-        width: 379
-        height: 1250
+        width: 158
+        height: 340
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: door_3
       rect:
         serializedVersion: 2
-        x: 1745
+        x: 481
         y: 0
-        width: 130
-        height: 1250
+        width: 138
+        height: 340
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
