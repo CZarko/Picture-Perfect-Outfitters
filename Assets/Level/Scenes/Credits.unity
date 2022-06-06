@@ -573,6 +573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreditTextBox
       objectReference: {fileID: 0}
+    - target: {fileID: 6949038918575192008, guid: 5ce5fa03f3bfb694083a07e1abc0da25, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: '%Kayden Young $did some programming.'
+      objectReference: {fileID: 0}
     - target: {fileID: 6949038919716401605, guid: 5ce5fa03f3bfb694083a07e1abc0da25, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

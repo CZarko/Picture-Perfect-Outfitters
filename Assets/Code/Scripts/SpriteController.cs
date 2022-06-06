@@ -9,21 +9,25 @@ public class SpriteController : MonoBehaviour {
     public List<Sprite> sprites; // list of all sprites that controlled object can render, manually inserted via inspector
     private int i; // stores current index of the sprite being rendered from the sprites list
 
-    public bool modifiable; // can the user change this sprite during gameplay?
-    public string name; // name of the sprite type (i.e. is it the top, the body, the head, etc.)
-    public Text text; // output object that player can see the active name of the sprite from the list rendered ultimately
+    //public bool modifiable; // can the user change this sprite during gameplay?
+    //public string name; // name of the sprite type (i.e. is it the top, the body, the head, etc.)
+    //public Text text; // output object that player can see the active name of the sprite from the list rendered ultimately
 
     // Start is called before the first frame update
     void Start() {
         spriteRenderer = this.GetComponent<SpriteRenderer>(); // fetch render component from sprite itself
-        i = UnityEngine.Random.Range(0, sprites.Count); // set init index to a random in the range of the sprites list bounds
+        Reset();
+    }
+
+    public void Reset() {
+         i = UnityEngine.Random.Range(0, sprites.Count); // set init index to a random in the range of the sprites list bounds
         ChangeSprite(i); // change the sprite to the sprite at that index
     }
 
     void ChangeSprite(int index) {
         try { // error trapping
             spriteRenderer.sprite = sprites[index]; // change the sprite to the sprites[index] sprite
-            if(modifiable) text.text = name + ": " + spriteRenderer.sprite.name; // if the object is modifiable then a text object should exist and therfore it should be updated
+            //if(modifiable) text.text = name + ": " + spriteRenderer.sprite.name; // if the object is modifiable then a text object should exist and therfore it should be updated
         } catch(MissingReferenceException) { Debug.LogError("The provided reference at index " + index + " is missing!"); } // error happened
     }
 
