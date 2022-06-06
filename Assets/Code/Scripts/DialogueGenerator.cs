@@ -80,7 +80,7 @@ public class DialogueGenerator : MonoBehaviour {
         d_top["shirt_short_green"] = new List<string>();
         d_top["shirt_short_green"].Add("short sleeved, green shirts");
         d_top["shirt_short_green"].Add("green");
-        d_top["shirt_short_green"].Add("stuff I can go to the gym in");
+        d_top["shirt_short_green"].Add("gymwear");
         d_top["shirt_short_green"].Add("natural colors");
 
         d_top["shirt_short_magenta"] = new List<string>();
@@ -92,13 +92,13 @@ public class DialogueGenerator : MonoBehaviour {
         d_top["tank_top_black"] = new List<string>();
         d_top["tank_top_black"].Add("black tank tops"); // explicit
         d_top["tank_top_black"].Add("to go sleeveless"); // unclear
-        d_top["tank_top_black"].Add("stuff I can go to the gym in"); // vague
+        d_top["tank_top_black"].Add("gymwear"); // vague
         d_top["tank_top_black"].Add("beachwear"); // mind reader
         
         d_top["tank_top_lavender"] = new List<string>();
         d_top["tank_top_lavender"].Add("lavender tank tops"); // explicit
         d_top["tank_top_lavender"].Add("lavender tops"); // unclear
-        d_top["tank_top_lavender"].Add("stuff I can go to the gym in"); // vague
+        d_top["tank_top_lavender"].Add("gymwear"); // vague
         d_top["tank_top_lavender"].Add("beachwear"); // mind reader
 
         d_top["tank_top_teal"] = new List<string>();
@@ -144,8 +144,8 @@ public class DialogueGenerator : MonoBehaviour {
         d_bottom["skirt_magenta"] = new List<string>();
         d_bottom["skirt_magenta"].Add("magenta skirts"); // explicit
         d_bottom["skirt_magenta"].Add("magenta"); // unclear
-        d_bottom["skirt_magenta"].Add("anything that isn't pants"); // vague
-        d_bottom["skirt_magenta"].Add("anything that shows off my legs"); // mind reader
+        d_bottom["skirt_magenta"].Add("not pants"); // vague
+        d_bottom["skirt_magenta"].Add("showing off my legs"); // mind reader
     }
 
     private void InitDFeet() {
@@ -153,7 +153,7 @@ public class DialogueGenerator : MonoBehaviour {
         d_feet["shoe_red"].Add("red shoes"); // explicit
         d_feet["shoe_red"].Add("red"); // unclear
         d_feet["shoe_red"].Add("rosy"); // vague
-        d_feet["shoe_red"].Add("anything that accentuates my sunny disposition"); // mind reader
+        d_feet["shoe_red"].Add("to have a sunny disposition"); // mind reader
 
         d_feet["shoe_black_converse"] = new List<string>();
         d_feet["shoe_black_converse"].Add("black converses"); // explicit
@@ -165,7 +165,7 @@ public class DialogueGenerator : MonoBehaviour {
         d_feet["shoe_blue"].Add("blue shoes"); // explicit
         d_feet["shoe_blue"].Add("blue"); // unclear
         d_feet["shoe_blue"].Add("ocean-ish colors"); // vague
-        d_feet["shoe_blue"].Add("whatever reminds me of the clematis"); // mind reader
+        d_feet["shoe_blue"].Add("things like clematis"); // mind reader
         
         d_feet["shoe_brown"] = new List<string>();
         d_feet["shoe_brown"].Add("brown shoes"); // explicit
@@ -188,7 +188,7 @@ public class DialogueGenerator : MonoBehaviour {
         d_feet["shoe_female_black"] = new List<string>();
         d_feet["shoe_female_black"].Add("black flats"); // explicit
         d_feet["shoe_female_black"].Add("black"); // unclear
-        d_feet["shoe_female_black"].Add("whatever makes me feel like a femme fatale"); // vague
+        d_feet["shoe_female_black"].Add("feeling femme fatale"); // vague
         d_feet["shoe_female_black"].Add("formalwear"); // mind reader
 
         d_feet["shoe_female_pink"] = new List<string>();
